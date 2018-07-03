@@ -1,0 +1,12 @@
+$page_h:100px;
+$view_h:200px;
+
+.page{
+    position: relative;
+    height: $page_h;
+    background-image: url('../assets/logo.png');
+
+    .view {
+        height: $page_h + $view_h;
+    }
+}
