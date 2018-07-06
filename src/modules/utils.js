@@ -1,5 +1,5 @@
 module.exports = {
     change(){
-        console.log('!!! change')
+        document.body.append('这是Utils')
     }
 }

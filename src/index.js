@@ -4,8 +4,7 @@ import utils from "modules/utils"
 
 console.log('xxxxxx')
 
-alert('Running App version ' + VERSION)
-
+document.body.append('这是js')
 
 utils.change()
 
